@@ -11,7 +11,5 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_USERNAME: GitHub
-        SLACK_MSG_AUTHOR: $GITHUB_ACTOR
         SLACK_ICON: https://github.com/favicon.ico
         SLACK_COLOR: ${{ job.status }}
-        MSG_MINIMAL: true
