@@ -13,3 +13,4 @@ jobs:
         SLACK_USERNAME: GitHub
         SLACK_ICON: https://github.com/favicon.ico
         SLACK_COLOR: ${{ job.status }}
+        MSG_MINIMAL: ref,event,commit,message
