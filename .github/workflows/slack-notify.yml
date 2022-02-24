@@ -1,7 +1,7 @@
 on: push
 name: Slack Notification Demo
 jobs:
-  slackNotification:
+  slackNotifications:
     name: Slack Notification
     runs-on: ubuntu-latest
     steps:
