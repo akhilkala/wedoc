@@ -3,7 +3,8 @@ import 'package:flutter/widgets.dart';
 
 AppBar customAppBar() {
   return AppBar(
-    title: Text("Wedoc"),
+    title: const Text("Wedoc"),
     elevation: 0,
+    backgroundColor: Colors.amber,
   );
 }
