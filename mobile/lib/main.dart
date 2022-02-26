@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:wedoc/screens/home_screen.dart';
+import 'package:wedoc/screens/game_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(GameFrame());
+  runApp(MyGameApplication());
 }
 
-class GameFrame extends StatelessWidget {
-  const GameFrame({Key? key}) : super(key: key);
+class MyGameApplication extends StatelessWidget {
+  const MyGameApplication({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class GameFrame extends StatelessWidget {
       title: "Wedoc",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.amber),
-      home: HomeScreen(),
+      home: GameScreen(),
     );
   }
 }
